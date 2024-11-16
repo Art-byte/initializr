@@ -36,7 +36,7 @@ public class BuildController {
         try{
             HttpClient client = HttpClient.newHttpClient();
             HttpRequest request = HttpRequest.newBuilder()
-                    .uri(new URI(RemoteOrigin.SPRING_START.getOrigin()))
+                    .uri(new URI(RemoteOrigin.SPRING_CLIENT.getOrigin()))
                     .GET()
                     .build();
             HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
