@@ -1,0 +1,998 @@
+{
+    "dependencies": {
+        "values": [
+            {
+                "sectionName": "Developer Tools",
+                "dependenciesContents": [
+                    {
+                        "id": "native",
+                        "depName": "GraalVM Native Support",
+                        "description": "Support for compiling Spring applications to native executables using the GraalVM native-image compiler."
+                    },
+                    {
+                        "id": "dgs-codegen",
+                        "depName": "GraphQL DGS Code Generation",
+                        "description": "Generate data types and type-safe APIs for querying GraphQL APIs by parsing schema files."
+                    },
+                    {
+                        "id": "devtools",
+                        "depName": "Spring Boot DevTools",
+                        "description": "Provides fast application restarts, LiveReload, and configurations for enhanced development experience."
+                    },
+                    {
+                        "id": "lombok",
+                        "depName": "Lombok",
+                        "description": "Java annotation library which helps to reduce boilerplate code."
+                    },
+                    {
+                        "id": "configuration-processor",
+                        "depName": "Spring Configuration Processor",
+                        "description": "Generate metadata for developers to offer contextual help and \"code completion\" when working with custom configuration keys (ex.application.properties/.yml files)."
+                    },
+                    {
+                        "id": "docker-compose",
+                        "depName": "Docker Compose Support",
+                        "description": "Provides docker compose support for enhanced development experience."
+                    },
+                    {
+                        "id": "modulith",
+                        "depName": "Spring Modulith",
+                        "description": "Support for building modular monolithic applications."
+                    }
+                ]
+            },
+            {
+                "sectionName": "Web",
+                "dependenciesContents": [
+                    {
+                        "id": "web",
+                        "depName": "Spring Web",
+                        "description": "Build web, including RESTful, applications using Spring MVC. Uses Apache Tomcat as the default embedded container."
+                    },
+                    {
+                        "id": "webflux",
+                        "depName": "Spring Reactive Web",
+                        "description": "Build reactive web applications with Spring WebFlux and Netty."
+                    },
+                    {
+                        "id": "graphql",
+                        "depName": "Spring for GraphQL",
+                        "description": "Build GraphQL applications with Spring for GraphQL and GraphQL Java."
+                    },
+                    {
+                        "id": "data-rest",
+                        "depName": "Rest Repositories",
+                        "description": "Exposing Spring Data repositories over REST via Spring Data REST."
+                    },
+                    {
+                        "id": "session",
+                        "depName": "Spring Session",
+                        "description": "Provides an API and implementations for managing user session information."
+                    },
+                    {
+                        "id": "data-rest-explorer",
+                        "depName": "Rest Repositories HAL Explorer",
+                        "description": "Browsing Spring Data REST repositories in your browser."
+                    },
+                    {
+                        "id": "hateoas",
+                        "depName": "Spring HATEOAS",
+                        "description": "Eases the creation of RESTful APIs that follow the HATEOAS principle when working with Spring / Spring MVC."
+                    },
+                    {
+                        "id": "web-services",
+                        "depName": "Spring Web Services",
+                        "description": "Facilitates contract-first SOAP development. Allows for the creation of flexible web services using one of the many ways to manipulate XML payloads."
+                    },
+                    {
+                        "id": "jersey",
+                        "depName": "Jersey",
+                        "description": "Framework for developing RESTful Web Services in Java that provides support for JAX-RS APIs."
+                    },
+                    {
+                        "id": "vaadin",
+                        "depName": "Vaadin",
+                        "description": "The full-stack web app platform for Spring. Build views fully in Java with Flow, or in React using Hilla."
+                    },
+                    {
+                        "id": "netflix-dgs",
+                        "depName": "Netflix DGS",
+                        "description": "Build GraphQL applications with Netflix DGS and Spring for GraphQL."
+                    },
+                    {
+                        "id": "htmx",
+                        "depName": "htmx",
+                        "description": "Build modern user interfaces with the simplicity and power of hypertext."
+                    }
+                ]
+            },
+            {
+                "sectionName": "Template Engines",
+                "dependenciesContents": [
+                    {
+                        "id": "thymeleaf",
+                        "depName": "Thymeleaf",
+                        "description": "A modern server-side Java template engine for both web and standalone environments. Allows HTML to be correctly displayed in browsers and as static prototypes."
+                    },
+                    {
+                        "id": "freemarker",
+                        "depName": "Apache Freemarker",
+                        "description": "Java library to generate text output (HTML web pages, e-mails, configuration files, source code, etc.) based on templates and changing data."
+                    },
+                    {
+                        "id": "mustache",
+                        "depName": "Mustache",
+                        "description": "Logic-less templates for both web and standalone environments. There are no if statements, else clauses, or for loops. Instead there are only tags."
+                    },
+                    {
+                        "id": "groovy-templates",
+                        "depName": "Groovy Templates",
+                        "description": "Groovy templating engine."
+                    },
+                    {
+                        "id": "jte",
+                        "depName": "JTE",
+                        "description": "Secure and lightweight template engine for Java and Kotlin."
+                    }
+                ]
+            },
+            {
+                "sectionName": "Security",
+                "dependenciesContents": [
+                    {
+                        "id": "security",
+                        "depName": "Spring Security",
+                        "description": "Highly customizable authentication and access-control framework for Spring applications."
+                    },
+                    {
+                        "id": "oauth2-client",
+                        "depName": "OAuth2 Client",
+                        "description": "Spring Boot integration for Spring Security's OAuth2/OpenID Connect client features."
+                    },
+                    {
+                        "id": "oauth2-authorization-server",
+                        "depName": "OAuth2 Authorization Server",
+                        "description": "Spring Boot integration for Spring Authorization Server."
+                    },
+                    {
+                        "id": "oauth2-resource-server",
+                        "depName": "OAuth2 Resource Server",
+                        "description": "Spring Boot integration for Spring Security's OAuth2 resource server features."
+                    },
+                    {
+                        "id": "data-ldap",
+                        "depName": "Spring LDAP",
+                        "description": "Makes it easier to build Spring based applications that use the Lightweight Directory Access Protocol."
+                    },
+                    {
+                        "id": "okta",
+                        "depName": "Okta",
+                        "description": "Okta specific configuration for Spring Security/Spring Boot OAuth2 features. Enable your Spring Boot application to work with Okta via OAuth 2.0/OIDC."
+                    }
+                ]
+            },
+            {
+                "sectionName": "SQL",
+                "dependenciesContents": [
+                    {
+                        "id": "jdbc",
+                        "depName": "JDBC API",
+                        "description": "Database Connectivity API that defines how a client may connect and query a database."
+                    },
+                    {
+                        "id": "data-jpa",
+                        "depName": "Spring Data JPA",
+                        "description": "Persist data in SQL stores with Java Persistence API using Spring Data and Hibernate."
+                    },
+                    {
+                        "id": "data-jdbc",
+                        "depName": "Spring Data JDBC",
+                        "description": "Persist data in SQL stores with plain JDBC using Spring Data."
+                    },
+                    {
+                        "id": "data-r2dbc",
+                        "depName": "Spring Data R2DBC",
+                        "description": "Provides Reactive Relational Database Connectivity to persist data in SQL stores using Spring Data in reactive applications."
+                    },
+                    {
+                        "id": "mybatis",
+                        "depName": "MyBatis Framework",
+                        "description": "Persistence framework with support for custom SQL, stored procedures and advanced mappings. MyBatis couples objects with stored procedures or SQL statements using a XML descriptor or annotations."
+                    },
+                    {
+                        "id": "liquibase",
+                        "depName": "Liquibase Migration",
+                        "description": "Liquibase database migration and source control library."
+                    },
+                    {
+                        "id": "flyway",
+                        "depName": "Flyway Migration",
+                        "description": "Version control for your database so you can migrate from any version (incl. an empty database) to the latest version of the schema."
+                    },
+                    {
+                        "id": "jooq",
+                        "depName": "JOOQ Access Layer",
+                        "description": "Generate Java code from your database and build type safe SQL queries through a fluent API."
+                    },
+                    {
+                        "id": "db2",
+                        "depName": "IBM DB2 Driver",
+                        "description": "A JDBC driver that provides access to IBM DB2."
+                    },
+                    {
+                        "id": "derby",
+                        "depName": "Apache Derby Database",
+                        "description": "An open source relational database implemented entirely in Java."
+                    },
+                    {
+                        "id": "h2",
+                        "depName": "H2 Database",
+                        "description": "Provides a fast in-memory database that supports JDBC API and R2DBC access, with a small (2mb) footprint. Supports embedded and server modes as well as a browser based console application."
+                    },
+                    {
+                        "id": "hsql",
+                        "depName": "HyperSQL Database",
+                        "description": "Lightweight 100% Java SQL Database Engine."
+                    },
+                    {
+                        "id": "mariadb",
+                        "depName": "MariaDB Driver",
+                        "description": "MariaDB JDBC and R2DBC driver."
+                    },
+                    {
+                        "id": "sqlserver",
+                        "depName": "MS SQL Server Driver",
+                        "description": "A JDBC and R2DBC driver that provides access to Microsoft SQL Server and Azure SQL Database from any Java application."
+                    },
+                    {
+                        "id": "mysql",
+                        "depName": "MySQL Driver",
+                        "description": "MySQL JDBC driver."
+                    },
+                    {
+                        "id": "oracle",
+                        "depName": "Oracle Driver",
+                        "description": "A JDBC driver that provides access to Oracle."
+                    },
+                    {
+                        "id": "postgresql",
+                        "depName": "PostgreSQL Driver",
+                        "description": "A JDBC and R2DBC driver that allows Java programs to connect to a PostgreSQL database using standard, database independent Java code."
+                    }
+                ]
+            },
+            {
+                "sectionName": "NoSQL",
+                "dependenciesContents": [
+                    {
+                        "id": "data-redis",
+                        "depName": "Spring Data Redis (Access+Driver)",
+                        "description": "Advanced and thread-safe Java Redis client for synchronous, asynchronous, and reactive usage. Supports Cluster, Sentinel, Pipelining, Auto-Reconnect, Codecs and much more."
+                    },
+                    {
+                        "id": "data-redis-reactive",
+                        "depName": "Spring Data Reactive Redis",
+                        "description": "Access Redis key-value data stores in a reactive fashion with Spring Data Redis."
+                    },
+                    {
+                        "id": "data-mongodb",
+                        "depName": "Spring Data MongoDB",
+                        "description": "Store data in flexible, JSON-like documents, meaning fields can vary from document to document and data structure can be changed over time."
+                    },
+                    {
+                        "id": "data-mongodb-reactive",
+                        "depName": "Spring Data Reactive MongoDB",
+                        "description": "Provides asynchronous stream processing with non-blocking back pressure for MongoDB."
+                    },
+                    {
+                        "id": "data-elasticsearch",
+                        "depName": "Spring Data Elasticsearch (Access+Driver)",
+                        "description": "A distributed, RESTful search and analytics engine with Spring Data Elasticsearch."
+                    },
+                    {
+                        "id": "data-cassandra",
+                        "depName": "Spring Data for Apache Cassandra",
+                        "description": "A free and open-source, distributed, NoSQL database management system that offers high-scalability and high-performance."
+                    },
+                    {
+                        "id": "data-cassandra-reactive",
+                        "depName": "Spring Data Reactive for Apache Cassandra",
+                        "description": "Access Cassandra NoSQL Database in a reactive fashion."
+                    },
+                    {
+                        "id": "data-couchbase",
+                        "depName": "Spring Data Couchbase",
+                        "description": "NoSQL document-oriented database that offers in memory-first architecture, geo-distributed deployments, and workload isolation."
+                    },
+                    {
+                        "id": "data-couchbase-reactive",
+                        "depName": "Spring Data Reactive Couchbase",
+                        "description": "Access Couchbase NoSQL database in a reactive fashion with Spring Data Couchbase."
+                    },
+                    {
+                        "id": "data-neo4j",
+                        "depName": "Spring Data Neo4j",
+                        "description": "An open source NoSQL database that stores data structured as graphs consisting of nodes, connected by relationships."
+                    }
+                ]
+            },
+            {
+                "sectionName": "Messaging",
+                "dependenciesContents": [
+                    {
+                        "id": "integration",
+                        "depName": "Spring Integration",
+                        "description": "Adds support for Enterprise Integration Patterns. Enables lightweight messaging and supports integration with external systems via declarative adapters."
+                    },
+                    {
+                        "id": "amqp",
+                        "depName": "Spring for RabbitMQ",
+                        "description": "Gives your applications a common platform to send and receive messages, and your messages a safe place to live until received."
+                    },
+                    {
+                        "id": "amqp-streams",
+                        "depName": "Spring for RabbitMQ Streams",
+                        "description": "Building stream processing applications with RabbitMQ."
+                    },
+                    {
+                        "id": "kafka",
+                        "depName": "Spring for Apache Kafka",
+                        "description": "Publish, subscribe, store, and process streams of records."
+                    },
+                    {
+                        "id": "kafka-streams",
+                        "depName": "Spring for Apache Kafka Streams",
+                        "description": "Building stream processing applications with Apache Kafka Streams."
+                    },
+                    {
+                        "id": "activemq",
+                        "depName": "Spring for Apache ActiveMQ 5",
+                        "description": "Spring JMS support with Apache ActiveMQ 'Classic'."
+                    },
+                    {
+                        "id": "artemis",
+                        "depName": "Spring for Apache ActiveMQ Artemis",
+                        "description": "Spring JMS support with Apache ActiveMQ Artemis."
+                    },
+                    {
+                        "id": "pulsar",
+                        "depName": "Spring for Apache Pulsar",
+                        "description": "Build messaging applications with Apache Pulsar"
+                    },
+                    {
+                        "id": "pulsar-reactive",
+                        "depName": "Spring for Apache Pulsar (Reactive)",
+                        "description": "Build reactive messaging applications with Apache Pulsar"
+                    },
+                    {
+                        "id": "websocket",
+                        "depName": "WebSocket",
+                        "description": "Build Servlet-based WebSocket applications with SockJS and STOMP."
+                    },
+                    {
+                        "id": "rsocket",
+                        "depName": "RSocket",
+                        "description": "RSocket.io applications with Spring Messaging and Netty."
+                    },
+                    {
+                        "id": "camel",
+                        "depName": "Apache Camel",
+                        "description": "Apache Camel is an open source integration framework that empowers you to quickly and easily integrate various systems consuming or producing data."
+                    },
+                    {
+                        "id": "solace",
+                        "depName": "Solace PubSub+",
+                        "description": "Connect to a Solace PubSub+ Advanced Event Broker to publish, subscribe, request/reply and store/replay messages"
+                    }
+                ]
+            },
+            {
+                "sectionName": "I/O",
+                "dependenciesContents": [
+                    {
+                        "id": "batch",
+                        "depName": "Spring Batch",
+                        "description": "Batch applications with transactions, retry/skip and chunk based processing."
+                    },
+                    {
+                        "id": "validation",
+                        "depName": "Validation",
+                        "description": "Bean Validation with Hibernate validator."
+                    },
+                    {
+                        "id": "mail",
+                        "depName": "Java Mail Sender",
+                        "description": "Send email using Java Mail and Spring Framework's JavaMailSender."
+                    },
+                    {
+                        "id": "quartz",
+                        "depName": "Quartz Scheduler",
+                        "description": "Schedule jobs using Quartz."
+                    },
+                    {
+                        "id": "cache",
+                        "depName": "Spring Cache Abstraction",
+                        "description": "Provides cache-related operations, such as the ability to update the content of the cache, but does not provide the actual data store."
+                    },
+                    {
+                        "id": "spring-shell",
+                        "depName": "Spring Shell",
+                        "description": "Build command line applications with spring."
+                    }
+                ]
+            },
+            {
+                "sectionName": "Ops",
+                "dependenciesContents": [
+                    {
+                        "id": "actuator",
+                        "depName": "Spring Boot Actuator",
+                        "description": "Supports built in (or custom) endpoints that let you monitor and manage your application - such as application health, metrics, sessions, etc."
+                    },
+                    {
+                        "id": "sbom-cyclone-dx",
+                        "depName": "CycloneDX SBOM support",
+                        "description": "Creates a Software Bill of Materials in CycloneDX format."
+                    },
+                    {
+                        "id": "codecentric-spring-boot-admin-client",
+                        "depName": "codecentric's Spring Boot Admin (Client)",
+                        "description": "Required for your application to register with a Codecentric's Spring Boot Admin Server instance."
+                    },
+                    {
+                        "id": "codecentric-spring-boot-admin-server",
+                        "depName": "codecentric's Spring Boot Admin (Server)",
+                        "description": "A community project to manage and monitor your Spring Boot applications. Provides a UI on top of the Spring Boot Actuator endpoints."
+                    },
+                    {
+                        "id": "sentry",
+                        "depName": "Sentry",
+                        "description": "Application performance monitoring and error tracking that help software teams see clearer, solve quicker, and learn continuously."
+                    }
+                ]
+            },
+            {
+                "sectionName": "Observability",
+                "dependenciesContents": [
+                    {
+                        "id": "datadog",
+                        "depName": "Datadog",
+                        "description": "Publish Micrometer metrics to Datadog, a dimensional time-series SaaS with built-in dashboarding and alerting."
+                    },
+                    {
+                        "id": "dynatrace",
+                        "depName": "Dynatrace",
+                        "description": "Publish Micrometer metrics to Dynatrace, a platform featuring observability, AIOps, application security and analytics."
+                    },
+                    {
+                        "id": "influx",
+                        "depName": "Influx",
+                        "description": "Publish Micrometer metrics to InfluxDB, a dimensional time-series server that support real-time stream processing of data."
+                    },
+                    {
+                        "id": "graphite",
+                        "depName": "Graphite",
+                        "description": "Publish Micrometer metrics to Graphite, a hierarchical metrics system backed by a fixed-size database."
+                    },
+                    {
+                        "id": "new-relic",
+                        "depName": "New Relic",
+                        "description": "Publish Micrometer metrics to New Relic, a SaaS offering with a full UI and a query language called NRQL."
+                    },
+                    {
+                        "id": "otlp-metrics",
+                        "depName": "OTLP for metrics",
+                        "description": "Publish Micrometer metrics to an OpenTelemetry Protocol (OTLP) capable backend."
+                    },
+                    {
+                        "id": "prometheus",
+                        "depName": "Prometheus",
+                        "description": "Expose Micrometer metrics in Prometheus format, an in-memory dimensional time series database with a simple built-in UI, a custom query language, and math operations."
+                    },
+                    {
+                        "id": "distributed-tracing",
+                        "depName": "Distributed Tracing",
+                        "description": "Enable span and trace IDs in logs."
+                    },
+                    {
+                        "id": "wavefront",
+                        "depName": "Wavefront",
+                        "description": "Publish metrics and optionally distributed traces to Tanzu Observability by Wavefront, a SaaS-based metrics monitoring and analytics platform that lets you visualize, query, and alert over data from across your entire stack."
+                    },
+                    {
+                        "id": "zipkin",
+                        "depName": "Zipkin",
+                        "description": "Enable and expose span and trace IDs to Zipkin."
+                    }
+                ]
+            },
+            {
+                "sectionName": "Testing",
+                "dependenciesContents": [
+                    {
+                        "id": "restdocs",
+                        "depName": "Spring REST Docs",
+                        "description": "Document RESTful services by combining hand-written with Asciidoctor and auto-generated snippets produced with Spring MVC Test."
+                    },
+                    {
+                        "id": "testcontainers",
+                        "depName": "Testcontainers",
+                        "description": "Provide lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container."
+                    },
+                    {
+                        "id": "cloud-contract-verifier",
+                        "depName": "Contract Verifier",
+                        "description": "Moves TDD to the level of software architecture by enabling Consumer Driven Contract (CDC) development."
+                    },
+                    {
+                        "id": "cloud-contract-stub-runner",
+                        "depName": "Contract Stub Runner",
+                        "description": "Stub Runner for HTTP/Messaging based communication. Allows creating WireMock stubs from RestDocs tests."
+                    },
+                    {
+                        "id": "unboundid-ldap",
+                        "depName": "Embedded LDAP Server",
+                        "description": "Provides a platform neutral way for running a LDAP server in unit tests."
+                    }
+                ]
+            },
+            {
+                "sectionName": "Spring Cloud",
+                "dependenciesContents": [
+                    {
+                        "id": "cloud-starter",
+                        "depName": "Cloud Bootstrap",
+                        "description": "Non-specific Spring Cloud features, unrelated to external libraries or integrations (e.g. Bootstrap context and @RefreshScope)."
+                    },
+                    {
+                        "id": "cloud-function",
+                        "depName": "Function",
+                        "description": "Promotes the implementation of business logic via functions and supports a uniform programming model across serverless providers, as well as the ability to run standalone (locally or in a PaaS)."
+                    },
+                    {
+                        "id": "cloud-task",
+                        "depName": "Task",
+                        "description": "Allows a user to develop and run short lived microservices using Spring Cloud. Run them locally, in the cloud, and on Spring Cloud Data Flow."
+                    }
+                ]
+            },
+            {
+                "sectionName": "Spring Cloud Config",
+                "dependenciesContents": [
+                    {
+                        "id": "cloud-config-client",
+                        "depName": "Config Client",
+                        "description": "Client that connects to a Spring Cloud Config Server to fetch the application's configuration."
+                    },
+                    {
+                        "id": "cloud-config-server",
+                        "depName": "Config Server",
+                        "description": "Central management for configuration via Git, SVN, or HashiCorp Vault."
+                    },
+                    {
+                        "id": "cloud-starter-vault-config",
+                        "depName": "Vault Configuration",
+                        "description": "Provides client-side support for externalized configuration in a distributed system. Using HashiCorp's Vault you have a central place to manage external secret properties for applications across all environments."
+                    },
+                    {
+                        "id": "cloud-starter-zookeeper-config",
+                        "depName": "Apache Zookeeper Configuration",
+                        "description": "Enable and configure common patterns inside your application and build large distributed systems with Apache Zookeeper based components. The provided patterns include Service Discovery and Configuration."
+                    },
+                    {
+                        "id": "cloud-starter-consul-config",
+                        "depName": "Consul Configuration",
+                        "description": "Enable and configure the common patterns inside your application and build large distributed systems with Hashicorp’s Consul. The patterns provided include Service Discovery, Distributed Configuration and Control Bus."
+                    }
+                ]
+            },
+            {
+                "sectionName": "Spring Cloud Discovery",
+                "dependenciesContents": [
+                    {
+                        "id": "cloud-eureka",
+                        "depName": "Eureka Discovery Client",
+                        "description": "A REST based service for locating services for the purpose of load balancing and failover of middle-tier servers."
+                    },
+                    {
+                        "id": "cloud-eureka-server",
+                        "depName": "Eureka Server",
+                        "description": "spring-cloud-netflix Eureka Server."
+                    },
+                    {
+                        "id": "cloud-starter-zookeeper-discovery",
+                        "depName": "Apache Zookeeper Discovery",
+                        "description": "Service discovery with Apache Zookeeper."
+                    },
+                    {
+                        "id": "cloud-starter-consul-discovery",
+                        "depName": "Consul Discovery",
+                        "description": "Service discovery with Hashicorp Consul."
+                    }
+                ]
+            },
+            {
+                "sectionName": "Spring Cloud Routing",
+                "dependenciesContents": [
+                    {
+                        "id": "cloud-gateway",
+                        "depName": "Gateway",
+                        "description": "Provides a simple, yet effective way to route to APIs in Servlet-based applications. Provides cross-cutting concerns to those APIs such as security, monitoring/metrics, and resiliency."
+                    },
+                    {
+                        "id": "cloud-gateway-reactive",
+                        "depName": "Reactive Gateway",
+                        "description": "Provides a simple, yet effective way to route to APIs in reactive applications. Provides cross-cutting concerns to those APIs such as security, monitoring/metrics, and resiliency."
+                    },
+                    {
+                        "id": "cloud-feign",
+                        "depName": "OpenFeign",
+                        "description": "Declarative REST Client. OpenFeign creates a dynamic implementation of an interface decorated with JAX-RS or Spring MVC annotations."
+                    },
+                    {
+                        "id": "cloud-loadbalancer",
+                        "depName": "Cloud LoadBalancer",
+                        "description": "Client-side load-balancing with Spring Cloud LoadBalancer."
+                    }
+                ]
+            },
+            {
+                "sectionName": "Spring Cloud Circuit Breaker",
+                "dependenciesContents": [
+                    {
+                        "id": "cloud-resilience4j",
+                        "depName": "Resilience4J",
+                        "description": "Spring Cloud Circuit breaker with Resilience4j as the underlying implementation."
+                    }
+                ]
+            },
+            {
+                "sectionName": "Spring Cloud Messaging",
+                "dependenciesContents": [
+                    {
+                        "id": "cloud-bus",
+                        "depName": "Cloud Bus",
+                        "description": "Links nodes of a distributed system with a lightweight message broker which can used to broadcast state changes or other management instructions (requires a binder, e.g. Apache Kafka or RabbitMQ)."
+                    },
+                    {
+                        "id": "cloud-stream",
+                        "depName": "Cloud Stream",
+                        "description": "Framework for building highly scalable event-driven microservices connected with shared messaging systems (requires a binder, e.g. Apache Kafka, Apache Pulsar, RabbitMQ, or Solace PubSub+)."
+                    }
+                ]
+            },
+            {
+                "sectionName": "VMware Tanzu Application Service",
+                "dependenciesContents": [
+                    {
+                        "id": "scs-config-client",
+                        "depName": "Config Client (TAS)",
+                        "description": "Config client on VMware Tanzu Application Service."
+                    },
+                    {
+                        "id": "scs-service-registry",
+                        "depName": "Service Registry (TAS)",
+                        "description": "Eureka service discovery client on VMware Tanzu Application Service."
+                    }
+                ]
+            },
+            {
+                "sectionName": "Microsoft Azure",
+                "dependenciesContents": [
+                    {
+                        "id": "azure-support",
+                        "depName": "Azure Support",
+                        "description": "Auto-configuration for Azure Services (Service Bus, Storage, Active Directory, Key Vault, and more)."
+                    },
+                    {
+                        "id": "azure-active-directory",
+                        "depName": "Azure Active Directory",
+                        "description": "Spring Security integration with Azure Active Directory for authentication."
+                    },
+                    {
+                        "id": "azure-cosmos-db",
+                        "depName": "Azure Cosmos DB",
+                        "description": "Fully managed NoSQL database service for modern app development, including Spring Data support."
+                    },
+                    {
+                        "id": "azure-keyvault",
+                        "depName": "Azure Key Vault",
+                        "description": "All key vault features are supported, e.g. manage application secrets and certificates."
+                    },
+                    {
+                        "id": "azure-storage",
+                        "depName": "Azure Storage",
+                        "description": "All Storage features are supported, e.g. blob, fileshare and queue."
+                    }
+                ]
+            },
+            {
+                "sectionName": "Google Cloud",
+                "dependenciesContents": [
+                    {
+                        "id": "cloud-gcp",
+                        "depName": "Google Cloud Support",
+                        "description": "Contains auto-configuration support for every Google Cloud integration. Most of the auto-configuration code is only enabled if other dependencies are added to the classpath."
+                    },
+                    {
+                        "id": "cloud-gcp-pubsub",
+                        "depName": "Google Cloud Messaging",
+                        "description": "Adds the Google Cloud Support entry and all the required dependencies so that the Google Cloud Pub/Sub integration work out of the box."
+                    },
+                    {
+                        "id": "cloud-gcp-storage",
+                        "depName": "Google Cloud Storage",
+                        "description": "Adds the Google Cloud Support entry and all the required dependencies so that the Google Cloud Storage integration work out of the box."
+                    }
+                ]
+            },
+            {
+                "sectionName": "AI",
+                "dependenciesContents": [
+                    {
+                        "id": "spring-ai-anthropic",
+                        "depName": "Anthropic Claude",
+                        "description": "Spring AI support for Anthropic Claude AI models."
+                    },
+                    {
+                        "id": "spring-ai-azure-openai",
+                        "depName": "Azure OpenAI",
+                        "description": "Spring AI support for Azure’s OpenAI offering, powered by ChatGPT. It extends beyond traditional OpenAI capabilities, delivering AI-driven text generation with enhanced functionality."
+                    },
+                    {
+                        "id": "spring-ai-vectordb-azure",
+                        "depName": "Azure AI Search",
+                        "description": "Spring AI vector database support for Azure AI Search. It is an AI-powered information retrieval platform and part of Microsoft’s larger AI platform. Among other features, it allows users to query information using vector-based storage and retrieval."
+                    },
+                    {
+                        "id": "spring-ai-bedrock",
+                        "depName": "Amazon Bedrock",
+                        "description": "Spring AI support for Amazon Bedrock. It is a managed service that provides foundation models from various AI providers, available through a unified API."
+                    },
+                    {
+                        "id": "spring-ai-vectordb-cassandra",
+                        "depName": "Apache Cassandra Vector Database",
+                        "description": "Spring AI vector database support for Apache Cassandra."
+                    },
+                    {
+                        "id": "spring-ai-vectordb-chroma",
+                        "depName": "Chroma Vector Database",
+                        "description": "Spring AI vector database support for Chroma. It is an open-source embedding database and gives you the tools to store document embeddings, content, and metadata. It also allows to search through those embeddings, including metadata filtering."
+                    },
+                    {
+                        "id": "spring-ai-vectordb-elasticsearch",
+                        "depName": "Elasticsearch Vector Database",
+                        "description": "Spring AI vector database support for Elasticsearch."
+                    },
+                    {
+                        "id": "spring-ai-vectordb-milvus",
+                        "depName": "Milvus Vector Database",
+                        "description": "Spring AI vector database support for Milvus. It is an open-source vector database that has garnered significant attention in the fields of data science and machine learning. One of its standout features lies in its robust support for vector indexing and querying."
+                    },
+                    {
+                        "id": "spring-ai-mistral",
+                        "depName": "Mistral AI",
+                        "description": "Spring AI support for Mistral AI, the open and portable generative AI for devs and businesses."
+                    },
+                    {
+                        "id": "spring-ai-vectordb-mongodb-atlas",
+                        "depName": "MongoDB Atlas Vector Database",
+                        "description": "Spring AI vector database support for MongoDB Atlas. Is is a fully managed cloud database service that provides an easy way to deploy, operate, and scale a MongoDB database in the cloud."
+                    },
+                    {
+                        "id": "spring-ai-vectordb-neo4j",
+                        "depName": "Neo4j Vector Database",
+                        "description": "Spring AI vector database support for Neo4j's Vector Search. It allows users to query vector embeddings from large datasets."
+                    },
+                    {
+                        "id": "spring-ai-ollama",
+                        "depName": "Ollama",
+                        "description": "Spring AI support for Ollama. It allows you to run various Large Language Models (LLMs) locally and generate text from them."
+                    },
+                    {
+                        "id": "spring-ai-openai",
+                        "depName": "OpenAI",
+                        "description": "Spring AI support for ChatGPT, the AI language model and DALL-E, the Image generation model from OpenAI."
+                    },
+                    {
+                        "id": "spring-ai-vectordb-oracle",
+                        "depName": "Oracle Vector Database",
+                        "description": "Spring AI vector database support for Oracle. Enables storing, indexing and searching vector embeddings in Oracle Database 23ai."
+                    },
+                    {
+                        "id": "spring-ai-vectordb-pgvector",
+                        "depName": "PGvector Vector Database",
+                        "description": "Spring AI vector database support for PGvector. It is an open-source extension for PostgreSQL that enables storing and searching over machine learning-generated embeddings."
+                    },
+                    {
+                        "id": "spring-ai-vectordb-pinecone",
+                        "depName": "Pinecone Vector Database",
+                        "description": "Spring AI vector database support for Pinecone. It is a popular cloud-based vector database and allows you to store and search vectors efficiently."
+                    },
+                    {
+                        "id": "spring-ai-postgresml",
+                        "depName": "PostgresML",
+                        "description": "Spring AI support for the PostgresML text embeddings models."
+                    },
+                    {
+                        "id": "spring-ai-vectordb-redis",
+                        "depName": "Redis Search and Query Vector Database",
+                        "description": "Spring AI vector database support for Redis Search and Query. It extends the core features of Redis OSS and allows you to use Redis as a vector database."
+                    },
+                    {
+                        "id": "spring-ai-stabilityai",
+                        "depName": "Stability AI",
+                        "description": "Spring AI support for Stability AI's text to image generation model."
+                    },
+                    {
+                        "id": "spring-ai-transformers",
+                        "depName": "Transformers (ONNX) Embeddings",
+                        "description": "Spring AI support for pre-trained transformer models, serialized into the Open Neural Network Exchange (ONNX) format."
+                    },
+                    {
+                        "id": "spring-ai-vertexai-palm2",
+                        "depName": "Vertex AI PaLM2",
+                        "description": "Spring AI support for Google Vertex PaLM2 chat and embedding models."
+                    },
+                    {
+                        "id": "spring-ai-vertexai-gemini",
+                        "depName": "Vertex AI Gemini",
+                        "description": "Spring AI support for Google Vertex Gemini chat. Doesn't support embeddings."
+                    },
+                    {
+                        "id": "spring-ai-vertexai-embeddings",
+                        "depName": "Vertex AI Embeddings",
+                        "description": "Spring AI support for Google Vertex text and multimodal embedding models."
+                    },
+                    {
+                        "id": "spring-ai-vectordb-qdrant",
+                        "depName": "Qdrant Vector Database",
+                        "description": "Spring AI vector database support for Qdrant. It is an open-source, high-performance vector search engine/database."
+                    },
+                    {
+                        "id": "spring-ai-vectordb-typesense",
+                        "depName": "Typesense Vector Database",
+                        "description": "Spring AI vector database support for Typesense."
+                    },
+                    {
+                        "id": "spring-ai-vectordb-weaviate",
+                        "depName": "Weaviate Vector Database",
+                        "description": "Spring AI vector database support for Weaviate, an open-source vector database. It allows you to store data objects and vector embeddings from your favorite ML-models and scale seamlessly into billions of data objects."
+                    },
+                    {
+                        "id": "spring-ai-markdown-document-reader",
+                        "depName": "Markdown Document Reader",
+                        "description": "Spring AI Markdown document reader. It allows to load Markdown documents, converting them into a list of Spring AI Document objects."
+                    },
+                    {
+                        "id": "spring-ai-tika-document-reader",
+                        "depName": "Tika Document Reader",
+                        "description": "Spring AI Tika document reader. It uses Apache Tika to extract text from a variety of document formats, such as PDF, DOC/DOCX, PPT/PPTX, and HTML. The documents are converted into a list of Spring AI Document objects."
+                    },
+                    {
+                        "id": "spring-ai-pdf-document-reader",
+                        "depName": "PDF Document Reader",
+                        "description": "Spring AI PDF document reader. It uses Apache PdfBox to extract text from PDF documents and converting them into a list of Spring AI Document objects."
+                    },
+                    {
+                        "id": "timefold-solver",
+                        "depName": "Timefold Solver",
+                        "description": "AI solver to optimize operations and scheduling."
+                    }
+                ]
+            }
+        ]
+    },
+    "type": {
+        "defaultValue": "gradle-project",
+        "values": [
+            {
+                "id": "gradle-project",
+                "name": "Gradle - Groovy",
+                "description": "Generate a Gradle based project archive using the Groovy DSL."
+            },
+            {
+                "id": "gradle-project-kotlin",
+                "name": "Gradle - Kotlin",
+                "description": "Generate a Gradle based project archive using the Kotlin DSL."
+            },
+            {
+                "id": "gradle-build",
+                "name": "Gradle Config",
+                "description": "Generate a Gradle build file."
+            },
+            {
+                "id": "maven-project",
+                "name": "Maven",
+                "description": "Generate a Maven based project archive."
+            },
+            {
+                "id": "maven-build",
+                "name": "Maven POM",
+                "description": "Generate a Maven pom.xml."
+            }
+        ]
+    },
+    "packaging": {
+        "defaultValue": "jar",
+        "values": [
+            {
+                "id": "jar",
+                "name": "Jar"
+            },
+            {
+                "id": "war",
+                "name": "War"
+            }
+        ]
+    },
+    "javaVersion": {
+        "defaultValue": "17",
+        "values": [
+            {
+                "id": "23",
+                "name": "23"
+            },
+            {
+                "id": "21",
+                "name": "21"
+            },
+            {
+                "id": "17",
+                "name": "17"
+            }
+        ]
+    },
+    "language": {
+        "defaultValue": "java",
+        "values": [
+            {
+                "id": "java",
+                "name": "Java"
+            },
+            {
+                "id": "kotlin",
+                "name": "Kotlin"
+            },
+            {
+                "id": "groovy",
+                "name": "Groovy"
+            }
+        ]
+    },
+    "bootVersion": {
+        "defaultValue": "3.3.5.RELEASE",
+        "values": [
+            {
+                "id": "3.4.0.BUILD-SNAPSHOT",
+                "name": "3.4.0 (SNAPSHOT)"
+            },
+            {
+                "id": "3.4.0.RC1",
+                "name": "3.4.0 (RC1)"
+            },
+            {
+                "id": "3.3.6.BUILD-SNAPSHOT",
+                "name": "3.3.6 (SNAPSHOT)"
+            },
+            {
+                "id": "3.3.5.RELEASE",
+                "name": "3.3.5"
+            },
+            {
+                "id": "3.2.12.BUILD-SNAPSHOT",
+                "name": "3.2.12 (SNAPSHOT)"
+            },
+            {
+                "id": "3.2.11.RELEASE",
+                "name": "3.2.11"
+            }
+        ]
+    },
+    "groupId": "com.example",
+    "artifactId": "demo",
+    "version": "0.0.1-SNAPSHOT",
+    "name": "demo",
+    "description": "Demo project for Spring Boot",
+    "packageName": "com.example.demo"
+}
