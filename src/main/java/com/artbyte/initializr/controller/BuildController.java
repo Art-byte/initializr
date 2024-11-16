@@ -1,6 +1,5 @@
 package com.artbyte.initializr.controller;
 
-import com.artbyte.initializr.constants.Dependencies;
 import com.artbyte.initializr.constants.RemoteOrigin;
 import com.artbyte.initializr.mapper.BuildDataMapper;
 import com.artbyte.initializr.model.Archetype;
@@ -37,7 +36,7 @@ public class BuildController {
         try{
             HttpClient client = HttpClient.newHttpClient();
             HttpRequest request = HttpRequest.newBuilder()
-                    .uri(new URI("https://start.spring.io/metadata/client"))
+                    .uri(new URI(RemoteOrigin.SPRING_START.getOrigin()))
                     .GET()
                     .build();
             HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
