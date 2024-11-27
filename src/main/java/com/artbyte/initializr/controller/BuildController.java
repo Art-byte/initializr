@@ -55,9 +55,6 @@ public class BuildController {
     @PostMapping("/generated")
     public ResponseEntity<Resource> buildProject(@RequestBody Archetype archetype) {
         try{
-            log.info("Objeto => {}", archetype.toString());
-
-            //Construimos la url
             StringBuilder urlBuilder = new StringBuilder(RemoteOrigin.SPRING_START.getOrigin());
                 urlBuilder.append("?type=").append(URLEncoder.encode(archetype.getType(), StandardCharsets.UTF_8));
                 urlBuilder.append("&language=").append(URLEncoder.encode(archetype.getLanguage(), StandardCharsets.UTF_8));
